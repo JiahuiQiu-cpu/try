@@ -1,20 +1,18 @@
-project:
-  type: website
-  output-dir: docs
-  
-website: 
-  title: "Foundation Math Learning"
-  navbar:
-    left:
-      - href: https://JiahuiQiu-cpu.github.io/
-        text: JH
-      - href: index.qmd
-        text: helo
-      - href: 12.qmd
-        text: helo
-      
-      
-format: 
-  html: 
-    theme: cosmo
-    toc: true
+name: "jh"
+output_dir: "docs"
+navbar:
+  title: "Homepage"
+  right:
+    - text: "Teaching"
+      href: index.html
+    - text: "Research"
+      href: 12.html
+    #- text: "Supervison"
+    #  href: super.html
+    #- text: "blog"
+
+    #- text: "Resources"
+    #  href: resource.html
+output:
+  html_document:
+    theme: bootstrap
