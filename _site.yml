@@ -8,7 +8,9 @@ website:
     left:
       - href: https://JiahuiQiu-cpu.github.io/
         text: JH
-      - href: ttt.qmd
+      - href: index.qmd
+        text: helo
+      - href: 12.qmd
         text: helo
       
       
